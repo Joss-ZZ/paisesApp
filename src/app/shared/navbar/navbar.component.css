@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 4.5em;
+    margin-bottom: 3em;
+}
+
+.navbar-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.navbar-title span{
+    font-style: italic;
+    color: #0067ff;
+}
+
+.navbar::before{
+    content: "";
+    background: linear-gradient(to right, #0067ff, #8900e8);
+    height: 1px;
+    width: 90%;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+}
